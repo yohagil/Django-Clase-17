@@ -1,8 +1,8 @@
 from django.db import models
 
 # Create your models here.
-class Profesor(models.model):
+class Profesor(models.Model):
   nombre = models.CharField(max_length=40) 
   apellido = models.CharField(max_length=20)
   email = models.CharField(max_length=40)
-  apellido = models.CharField(max_length=30)
+  profesion = models.CharField(max_length=30)
